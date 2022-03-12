@@ -1,0 +1,28 @@
+body {
+    background-color: #333;
+    color: #f4f4f4;
+}
+a {
+    color: hotpink;
+}
+a:hover {
+    color: green;
+}
+.intro {
+    background-color: seagreen;
+}
+.earthh3 {
+    background-color: seagreen;
+}
+.marsh3 {
+    background-color: saddlebrown;
+}
+h3 {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+.intro {
+    font-size: 24px;
+}

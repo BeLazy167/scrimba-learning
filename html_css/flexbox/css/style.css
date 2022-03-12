@@ -1,0 +1,56 @@
+/*
+h1 - 48px
+h2 - 36px
+h3 - 28px
+all other text - 21px
+
+colors: 
+   #588C94 
+   #1D3C41
+*/
+body {
+    margin: 0;
+}
+h1 {
+    font-size: 48px;
+}
+h2 {
+    font-size: 36px;
+}
+h3 {
+    font-size: 28px;
+}
+header {
+    color: #fefefe;
+    background-color: #588c94;
+    text-align: center;
+    padding: 50px;
+}
+main {
+    padding: 50px;
+    width: 400px;
+    margin: 50px auto;
+    text-align: center;
+    border: solid pink 7px;
+}
+footer {
+    background-color: #1d3c41;
+}
+
+.my-skills {
+    background-color: #1d3c41;
+    color: #fff;
+    padding: 75px 0;
+    text-align: center;
+}
+
+.columns {
+    display: flex;
+}
+
+.column {
+    margin: 0 10px;
+}
+p {
+    font-size: 21px;
+}

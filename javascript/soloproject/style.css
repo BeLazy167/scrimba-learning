@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(246.26deg, #585dfe 0%, #fb3796 100%);
+}
+h1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 38px;
+    /* identical to box height, or 173% */
+    color: #ffffff;
+}
+h2,
+#number-label {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+
+    text-align: center;
+
+    color: #1a1921;
+}
+h3 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    text-align: center;
+
+    color: #4e4e4e;
+}
+#number {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 97.5723px;
+    line-height: 24px;
+
+    text-align: center;
+
+    color: #ffffff;
+}
+.con {
+    margin: 0 auto;
+    padding-top: 50px;
+    width: 550px;
+    height: 550px;
+    background: #fbf7ee;
+}
+
+/* CSS */
+.button-16 {
+    background: linear-gradient(246.26deg, #585dfe 0%, #fb3796 100%);
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: "Inter";
+    font-style: normal;
+    font-size: 18px;
+    height: 36px;
+    line-height: 27px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: pre;
+}
+
+.button-16:hover {
+    border-color: #dadce0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 1px 1px;
+    color: #202124;
+}
+
+.button-16:focus {
+    border-color: #4285f4;
+    outline: none;
+}
