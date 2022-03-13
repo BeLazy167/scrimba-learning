@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Password Genrator</title>
+
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <div>
+            <h1 class="t1">Generate a</h1>
+
+            <h1 class="t2">random password</h1>
+
+            <p>Never use an insecure password again.</p>
+
+            <button onclick="givePass()">⚡Generate passwords</button>
+
+            <input type="number" id="length" value="12" />
+
+            <hr />
+
+            <div class="row">
+                <div class="column"></div>
+                <button id="b1" onClick="b1Copy()">Password 1</button>
+                <div class="column"></div>
+                <button id="b2" onClick="b2Copy()">Password 2</button>
+            </div>
+
+            <div class="row">
+                <div class="column"></div>
+                <button id="b3" onClick="b3Copy()">Password 3</button>
+                <div class="column"></div>
+                <button id="b4" onClick="b4Copy()">Password 4</button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
