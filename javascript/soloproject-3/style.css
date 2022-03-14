@@ -1,0 +1,115 @@
+body {
+    margin: 0 auto;
+}
+.box-1 {
+    width: 550px;
+    height: 190px;
+    left: 0px;
+    top: 0px;
+
+    background: #3a69d2;
+}
+.heading {
+    padding-top: 50px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #ffffff;
+}
+.sub-heading {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+
+    text-align: center;
+
+    color: #ffffff;
+}
+.box-2 {
+    width: 550px;
+    height: 719px;
+    left: 155px;
+    top: 959px;
+
+    background: #1f2937;
+}
+.btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px;
+}
+.btn {
+    margin: 0 auto;
+    width: 143.17px;
+    height: 45px;
+    background: #d1d4f4;
+    border: 2px solid #ffffff;
+    border-radius: 7px;
+    margin-top: 15px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+    color: #4a4e74;
+}
+.summary {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    margin-top: 10px;
+}
+.sub-summary {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    /* or 167% */
+
+    color: #d5d4d8;
+}
+.line {
+    width: 85%;
+}
+.contianer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    height: 80px;
+}
+.t-1, .t-2, .t-3 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    /* or 100% */
+
+    color: #f5f5f5;
+}
+.s-1, .s-2, .s-3 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 20px;
+    /* or 83% */
+
+    color: #918e9b;
+}
