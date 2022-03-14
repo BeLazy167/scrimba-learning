@@ -15,7 +15,7 @@ let toAdd = document.getElementById("main-container");
 
 washCar.addEventListener("click", function () {
     taskAdded.push(0);
-    render(taskAdded.sort());
+    render(taskAdded.sort(dsadsadas));
 });
 
 mowLawn.addEventListener("click", function () {
