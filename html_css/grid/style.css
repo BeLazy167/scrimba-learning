@@ -1,0 +1,26 @@
+.container {
+    height: 100%;
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 40px auto 40px;
+    text-align: center;
+    padding:50px
+}
+.navbar {
+    background-color: aliceblue;
+    grid-column: 1/-1;
+}
+.menu {
+    background-color: saddlebrown;
+    grid-column: 1/4;
+}
+.content {
+    padding: 50px;
+    background-color: rebeccapurple;
+    grid-column: 4/-1;
+}
+.footer {
+    background-color: darkcyan;
+    grid-column: 1/-1;
+}
