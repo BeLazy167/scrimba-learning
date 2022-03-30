@@ -1,0 +1,128 @@
+body {
+    display: flex;
+
+    justify-content: center;
+    background-color: #23252c;
+    margin-top: 33px;
+}
+img {
+    width: 317px;
+    height: 317px;
+   
+}
+.main-content {
+    border: 1px solid red;
+}
+.text-content {
+    background-color: #1a1b21;
+    padding-top: 21px;
+    width: 317px;
+    height: 389px;
+    margin:0
+}
+.text-content > h1 {
+    font-family: "Inter";
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    margin-top: -10px;
+    margin-bottom:7px;
+}
+
+.text-content > h3 {
+    font-family: "Inter";
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    color: #f3bf99;
+    margin-top: 0px;
+}
+.text-content > h4 {
+    font-family: "Inter";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
+.social-icons > a {
+    display: block;
+    width: 115px;
+    height: 34px;
+    /* padding: 9px 13px 9px 11px; */
+    text-align: center;
+    border-radius: 6px;
+    color: white;
+
+    line-height: 200%;
+
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+a.linkedin {
+    background-color: #5093e2;
+    color: white;
+}
+a.email {
+    background-color: #fff;
+    color: black;
+    margin-right: 17px;
+}
+
+svg {
+    margin-right: 9.33px;
+
+    justify-content: center;
+}
+.text-content > p {
+    font-family: "Inter";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 36px;
+    margin-right: 34px;
+    text-align: left;
+    color: white;
+    margin-top: 0;
+}
+.text-content > h2 {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    margin-left: 36px;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+.footer {
+    height: 64px;
+    width: 317px;
+    display: flex;
+    justify-content: center;
+    background-color: #161619;
+    align-items: center;
+}
+.footer > div {
+    margin-left: 24px;
+    margin-right: 0;
+}
+.footer > div:first-child {
+    margin-left: 73px;
+}
+.footer > div:last-child {
+    margin-right: 73px;
+}
+.about{
+    padding-top:33px ;
+}
