@@ -1,9 +1,17 @@
 import React from "react";
 import Katie from "./images/katie-zaferes.png";
 import "./style.css";
-export default function Card() {
+
+export default function Card(props) {
+    let badgeText;
+    if (props.openSpots === 0) {
+        badgeText = "SOLD OUT";
+    } else if (props.location === "Online") {
+        badgeText = "ONLINE";
+    }
     return (
         <div className="card">
+            {badgeText && <div className="card--badge">{badgeText}</div>}
             <img src={Katie} />
             <div className="card--details">
                 <svg
@@ -19,12 +27,14 @@ export default function Card() {
                     />
                 </svg>
 
-                <span> 5.0</span>
-                <span className="gray">(6) • </span>
-                <span className="gray">USA</span>
+                <span> {props.stats.rating}</span>
+                <span className="gray">({props.stats.reviewCount}) • </span>
+                <span className="gray">{props.location}</span>
             </div>
-            <p>Life lessons with Katie Zaferes</p>
-            <p><span className='bold'>From $136 </span>/ person</p>
+            <p>{props.title}</p>
+            <p>
+                <span className="bold">From ${props.price} </span>/ person
+            </p>
         </div>
     );
 }

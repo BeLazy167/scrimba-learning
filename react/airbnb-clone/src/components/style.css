@@ -31,6 +31,7 @@ nav > svg {
     text-align: left;
     font-size: 36px;
     font-weight: 600;
+    line-height: 30px;
     margin-bottom: 16px;
 }
 .hero > p {
@@ -44,7 +45,9 @@ nav > svg {
 .card {
     width: 175px;
     font-size: 12px;
-    margin: 49px 0 0 18px;
+    /* margin: 49px 0 0 18px; */
+    margin: 20px auto;
+    position: relative;
 }
 
 .card > p {
@@ -63,6 +66,15 @@ nav > svg {
 .gray {
     color: #918e9b;
 }
-.bold{
+.bold {
+    font-weight: bold;
+}
+.card--badge {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
     font-weight: bold;
 }
