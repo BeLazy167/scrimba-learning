@@ -56,3 +56,7 @@ body {
     box-sizing: border-box;
     border-radius: 5px;
 }
+.form > img {
+    width: 100%;
+    grid-column: 1 / -1;
+}

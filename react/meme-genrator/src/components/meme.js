@@ -1,10 +1,28 @@
-import React from "react";
-import "./style.css";
+import React, { useState } from "react";
+import memedata from "./memedata";
 
-export default function Meme(props) {
+export default function Meme() {
+    let meme = {
+        topText: "",
+        bottomText: "",
+        randomImage: "https://i.imgflip.com/30b1gx.jpg",
+    };
+    const [allMemeImages, setAllMemeImages] = useState(memedata);
+    const [memeImage, setMemeImage] = useState(meme);
+    function getMeme() {
+        const allmeme = allMemeImages.data.memes;
+        const randomMeme = allmeme[Math.floor(Math.random() * allmeme.length)];
+        setMemeImage((prevMeme) => {
+            return {
+                ...prevMeme,
+                randomImage: randomMeme.url,
+            };
+        });
+    }
+
     return (
         <main>
-            <form className="form">
+            <div className="form">
                 <input
                     type="text"
                     placeholder="Top text"
@@ -15,8 +33,11 @@ export default function Meme(props) {
                     placeholder="Bottom text"
                     className="form--input"
                 />
-                <button className="form--button">Get a new meme image 🖼</button>
-            </form>
+                <button onClick={getMeme} className="form--button">
+                    Get a new meme image 🖼
+                </button>
+                <img src={memeImage.randomImage} alt="meme" />
+            </div>
         </main>
     );
 }
